@@ -1,0 +1,20 @@
+<h3>
+  <a [title]="product.name + ' details'" href="{{product.link}}">
+    {{ product.name }}
+  </a>
+  <a routerLink="/categories/{{category.id}}/products/{{product.id}}"> <button>View Details</button></a>
+</h3>
+
+<img src="{{product.img[0]}}" height="200px" width="200px"  alt="" class="img" >
+<!--<img src="{{product.img[1]}}" height="200px" width="200px" alt="" class="img">-->
+<!--<img src="{{product.img[2]}}" height="200px" width="200px" alt="" class="img">-->
+
+<!--<div class="rating">Rating:<span class="ratingNum">{{product.rating}}</span></div>-->
+
+<!--<p *ngIf="product.description">-->
+<!--  Description: {{ product.description }}-->
+<!--</p>-->
+
+<!--<button (click)="share(product.link)">-->
+<!--  Share-->
+<!--</button>-->
